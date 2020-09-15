@@ -1,0 +1,95 @@
+body{
+    margin:0px;
+    background:rgb(41, 33, 33);
+    color:white;
+}
+
+h1{
+font-size:40px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+letter-spacing:3px;
+}
+
+header {
+margin:10px auto;
+padding: 60px auto;
+text-align:center;
+border: dotted bisque 6px;
+color:bisque;
+background:rgb(41, 33, 33);
+line-height:5px;
+transition:font-size 0.5s;
+}
+
+main{
+    color:bisque;
+    margin: 25px auto;
+    padding:45px;
+    text-align:center;
+    line-height:50px;
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace;   
+}
+a{
+    text-decoration:none;
+    color:bisque;
+    font-size:25px;
+    transition:all 0.5s;
+   
+}
+a:hover{
+    font-size:32px;
+}
+.button1{
+    background:bisque;
+    color:rgb(41, 33, 33);
+    padding:5px 6px;
+    margin:10px;
+    width:50%;
+    border-radius:8px;
+    transition:all 0.5s;
+    font-size:25px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.button1:hover{
+ background:rgb(41, 33, 33);
+ color:bisque;
+ font-size:28px;
+}
+
+details{
+    margin:10px;
+    text-align:left;
+    font-size:30px;
+    transition:all 0.5s;
+}
+details:hover{
+    font-size:35px;
+}
+
+.logos{
+    margin:0 40px;
+    padding:50px auto;
+    list-style: height 50px;
+}
+.levels{
+    align-items:left;
+    justify-content:left;
+    line-height: 30px;
+}
+.level1{
+    margin:10px auto;
+}
+.homebutton{
+    display:flex;
+    background:bisque;
+    color:rgb(41, 33, 33);
+    border-radius:8px;
+    transition:all 0.5s;
+    font-size:25px;
+    font-family:'Courier New', Courier, monospace;
+    align-items:center;
+    justify-content:center;
+    margin:10px 600px;
+}
