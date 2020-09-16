@@ -1,6 +1,6 @@
 body{
     margin:0px;
-    background-image:linear-gradient(rgb(41, 33, 33),black);
+    background-image:linear-gradient(rgb(41, 33, 33),rgb(12, 12, 12));
     color:white;
 }
 
@@ -11,13 +11,11 @@ letter-spacing:3px;
 }
 
 header{
-margin:auto;
 padding: 45px 30px;
 text-align:center;
 border: dotted bisque 10px;
 color:bisque;
 background:rgb(41, 33, 33);
-line-height:5px;
 transition:font-size 0.5s;
 }
 
@@ -47,7 +45,7 @@ a:hover{
     color:rgb(41, 33, 33);
     padding:5px 6px;
     margin:10px;
-    width:50%;
+    width:55%;
     border-radius:8px;
     transition:all 0.5s;
     font-size:25px;
@@ -72,13 +70,14 @@ details:hover{
     cursor: pointer;
 }
 
-.logos{
+.logo{
+    text-align:left;
     margin:0 40px;
     padding:50px auto;
     list-style: height 50px;
 }
 .levels{
-    display:flex;
+   
     align-items:left;
     justify-content:left;
     line-height: 30px;
