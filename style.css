@@ -1,5 +1,7 @@
 body{
     margin:0px;
+    height:100%;
+    overflow:auto;
     background-image:linear-gradient(rgb(41, 33, 33),rgb(12, 12, 12));
     color:white;
 }
