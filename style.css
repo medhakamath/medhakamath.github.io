@@ -1,6 +1,6 @@
 body{
     margin:0px;
-    background:rgb(41, 33, 33);
+    background-image:linear-gradient(rgb(41, 33, 33),black);
     color:white;
 }
 
@@ -10,11 +10,11 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 letter-spacing:3px;
 }
 
-header {
-margin:10px auto;
-padding: 60px auto;
+header{
+margin:auto;
+padding: 45px 30px;
 text-align:center;
-border: dotted bisque 6px;
+border: dotted bisque 10px;
 color:bisque;
 background:rgb(41, 33, 33);
 line-height:5px;
@@ -30,15 +30,17 @@ main{
     font-size:30px;
     font-family: 'Courier New', Courier, monospace;   
 }
+
 a{
     text-decoration:none;
     color:bisque;
-    font-size:25px;
-    transition:all 0.5s;
-   
+    font-size:40px;
+    transition:all 0.5s ease;
+      
 }
 a:hover{
-    font-size:32px;
+    font-size:45px;
+    color:white;
 }
 .button1{
     background:bisque;
@@ -66,6 +68,8 @@ details{
 }
 details:hover{
     font-size:35px;
+    color:white;
+    cursor: pointer;
 }
 
 .logos{
@@ -74,22 +78,44 @@ details:hover{
     list-style: height 50px;
 }
 .levels{
+    display:flex;
     align-items:left;
     justify-content:left;
     line-height: 30px;
+    
 }
 .level1{
-    margin:10px auto;
+    margin:20px 20px;
 }
-.homebutton{
+
+}
+.name{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:55px;
+    animation-name:grow;
+    animation-duration:3s;
+}
+
+@keyframes grow{
+   from { font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+   to {font-family: 'Courier New', Courier, monospace;}
+}
+footer{
     display:flex;
-    background:bisque;
+}
+
+.homebutton{
+    text-align:center;
+    padding:20px 30px;
+    margin:auto 200px;
     color:rgb(41, 33, 33);
+    background-color:bisque;
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
     border-radius:8px;
     transition:all 0.5s;
-    font-size:25px;
-    font-family:'Courier New', Courier, monospace;
-    align-items:center;
-    justify-content:center;
-    margin:10px 600px;
+}
+.homebutton:hover{
+    font-size:30px;
+    cursor: pointer;
 }
